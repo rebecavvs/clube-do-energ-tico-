@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 200vh;
+    background-color: black;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .675s;
+}
+
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a{
+    color: #243B55;
+}
+
+header i{
+    font-size: 30px;
+    color: #243B55;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #243B55;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #243B55;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.fundo{
+    height: 100vh;
+    background-image: url("https://cdn.leonardo.ai/users/a183032b-5f12-4be2-bf87-690261a4ac7d/generations/99bdb174-f5aa-4558-b238-3621bc0ad150/Default_energy_drink_pastel_colors_background_0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.fundo h1 span{
+    font-size: xx-large;
+    color: #ff0000;
+    
+}
+.fundo h1{
+    background-color: rgba(128, 128, 128, 0.534);
+}
+.fundo h1{
+    font-size: xx-large;
+    color: #c07c15;
+}
+
